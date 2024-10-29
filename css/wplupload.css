@@ -1,0 +1,41 @@
+.bar {
+	background:url(../imgs/progress.gif) repeat-x;
+	border-right:1px solid #DFDFDF;	
+	position:relative;
+}
+
+#wpl-logo {
+	width:40px;
+	height:40px;
+	background:url(../imgs/plupload.png) center no-repeat;
+	position:absolute;
+	left:580px;
+	top:0px;
+	margin-top:-10px;
+}
+
+#wpl-logo a {
+	display:block;
+	height:100%;
+	width:100%;
+	text-decoration:none;	
+}
+
+.wpl-cancel {
+	width:16px;
+	height:16px;
+	background:url(../imgs/delete.png) no-repeat;
+	position:absolute;
+	right:10px;
+	top:10px;	
+	cursor:pointer;
+}
+
+.button.hover {
+	color: #000;
+	border-color: #666;
+}
+
+.button.active {
+	background: #eee url(../imgs/white-grad-active.png) repeat-x scroll left top;
+}
